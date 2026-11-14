@@ -17,6 +17,19 @@ The Software Development program runs for **30 weeks** and covers the following 
 | Systems Design | Systems Design Fundamentals, Test Driven Development, Containerization, Cloud Computing, Real Life Examples | [View Curriculum](https://github.com/zinduaschool/software-development-public/tree/main/%5B06%5D%20Systems%20Design) | 5 weeks |
 
 
+## Class Notes
+Your technical mentors share the notes they use in live classes. Each module links to its notes repository; modules marked *Coming soon* do not have a public notes repository yet.
+
+| Module | Class Notes |
+|---|---|
+| HTML & CSS | Coming soon |
+| JavaScript Programming | Coming soon |
+| ReactJS Frontend Development | Coming soon |
+| Python Programming | [Python Notes](https://github.com/zinduaschool/python-notes) |
+| Django Backend Development | Coming soon |
+| Systems Design | Coming soon |
+| Data Structures and Algorithms (bonus) | [DSA Notes](https://github.com/zinduaschool/dsa-notes) |
+
 ### Additional Skills
 All our graduates will also have access to bonus modules covering key concepts and skills for their careers in technology. These include:
 1. Cloud Computing with **Amazon Web Services** or **Microsoft Azure** (On program completion)
