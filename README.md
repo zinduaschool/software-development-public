@@ -5,30 +5,44 @@ In this program, you will learn the essential skills for Software Development to
 To apply for the Zindua Software Development program, [go to our APPLY page](https://zinduaschool.com/apply).
 
 ## The Program Breakdown
-The Software Development program runs for **30 weeks** and covers the following key modules:
+The core Software Development program covers the following modules, in order. Each module can be taken **part-time (3 weeks)** or **full-time (5 weeks)**:
 
-| Module/Course | Key Concepts | Curriculum | Duration |
-|---|---|---|---|
-| HTML & CSS | HTML Structure, CSS Styling, Responsive Design | [Join Free Course](https://app.zinduaschool.com/free) | 2.5 weeks |
-| JavaScript Programming | Variables and Data Types, Conditional Statements and Loops, Functions, Event Handling | [View Curriculum](https://github.com/zinduaschool/software-development-public/tree/main/JavaScript) | 5 weeks |
-| ReactJS Frontend Development | Components, State and Props, React Router, React Hooks and APIs, State Management | [View Curriculum](https://github.com/zinduaschool/software-development-public/tree/main/React) | 5 weeks |
-| Python Programming | Python Basics, Variables and Data Types, Libraries and Modules, Object Oriented Programming, Using Web Services | [View Curriculum](https://github.com/zinduaschool/data-science-public/tree/main/02-python-programming) | 5 weeks |
-| Django Backend Development | MVC Architecture, URL Routing, Django Models, Views and Templates, Django Forms | [View Curriculum](https://github.com/zinduaschool/software-development-public/tree/main/Django) | 5 weeks |
-| Systems Design | Systems Design Fundamentals, Test Driven Development, Containerization, Cloud Computing, Real Life Examples | [View Curriculum](https://github.com/zinduaschool/software-development-public/tree/main/%5B06%5D%20Systems%20Design) | 5 weeks |
+| Module/Course | Key Concepts | Curriculum | Part-time | Full-time |
+|---|---|---|---|---|
+| 01. HTML & CSS | Semantic HTML, CSS, Responsive Design, Tailwind CSS, Git & GitHub, Figma | [View Curriculum](https://github.com/zinduaschool/software-development-public/tree/main/01-html-css) | 3 weeks | 5 weeks |
+| 02. JavaScript Programming | Variables and Data Types, DOM, Events, Async JavaScript, OOP, Testing | [View Curriculum](https://github.com/zinduaschool/software-development-public/tree/main/02-javascript) | 3 weeks | 5 weeks |
+| 03. ReactJS Frontend Development | Components, State and Props, Hooks, Routing, Redux, Testing, Deployment | [View Curriculum](https://github.com/zinduaschool/software-development-public/tree/main/03-react) | 3 weeks | 5 weeks |
+| 04. Python Programming | Python Basics, Data Types, Web Services, Object Oriented Programming, Databases | [View Curriculum](https://github.com/zinduaschool/software-development-public/tree/main/04-python) | 3 weeks | 5 weeks |
+| 05. Django Backend Development | Django ORM, Authentication, Django Rest Framework, Testing, Deployment | [View Curriculum](https://github.com/zinduaschool/software-development-public/tree/main/05-django) | 3 weeks | 5 weeks |
+| 06. Cloud Computing | Cloud Infrastructure, Docker, Deployment, Cloud Architecture, System Design | [View Curriculum](https://github.com/zinduaschool/software-development-public/tree/main/06-cloud-computing) | 3 weeks | 5 weeks |
 
+### Specializations
+Specializations are taken **part-time** and run for **15 weeks** in total.
+
+| Specialization | Key Concepts | Curriculum |
+|---|---|---|
+| Specialization: DevOps Engineering | Linux & Bash, CI/CD, Docker, Kubernetes, Terraform, Azure, GitOps | [View Curriculum](https://github.com/zinduaschool/software-development-public/tree/main/07-devops) |
+
+### Bonus Courses
+Bonus courses are taken **part-time** alongside or after the core program.
+
+| Bonus Course | Key Concepts | Curriculum |
+|---|---|---|
+| Bonus: Data Structures & Algorithms | Big-O, Sorting, Dynamic Programming, Trees, Graphs | [View Curriculum](https://github.com/zinduaschool/software-development-public/tree/main/08-data-structures-algorithms) |
 
 ## Class Notes
 Your technical mentors share the notes they use in live classes. Each module links to its notes repository; modules marked *Coming soon* do not have a public notes repository yet.
 
 | Module | Class Notes |
 |---|---|
-| HTML & CSS | Coming soon |
-| JavaScript Programming | Coming soon |
-| ReactJS Frontend Development | Coming soon |
-| Python Programming | [Python Notes](https://github.com/zinduaschool/python-notes) |
-| Django Backend Development | Coming soon |
-| Systems Design | Coming soon |
-| Data Structures and Algorithms (bonus) | [DSA Notes](https://github.com/zinduaschool/dsa-notes) |
+| 01. HTML & CSS | Coming soon |
+| 02. JavaScript Programming | Coming soon |
+| 03. ReactJS Frontend Development | Coming soon |
+| 04. Python Programming | [Python Notes](https://github.com/zinduaschool/python-notes) |
+| 05. Django Backend Development | Coming soon |
+| 06. Cloud Computing | Coming soon |
+| Specialization: DevOps Engineering | Coming soon |
+| Bonus: Data Structures & Algorithms | [DSA Notes](https://github.com/zinduaschool/dsa-notes) |
 
 ### Additional Skills
 All our graduates will also have access to bonus modules covering key concepts and skills for their careers in technology. These include:
@@ -39,7 +53,7 @@ All our graduates will also have access to bonus modules covering key concepts a
   - **Tech Events and Workshops:** We hold events and workshops every 5 weeks, covering different tech diciplines such as Blockchain Development, Product Design, PowerBI, No-Code Development among others.
 
 ### Our Program Structure
-We employ a hybrid program structure that runs in 5-week sprints (with a one-week break after every module for the end-of-module project and event/workshop) as follows:
+We employ a hybrid program structure that runs in module sprints (with a one-week break after every module for the end-of-module project and event/workshop) as follows:
 1. **Prerecorded Content:** Learn virtually through our curated video and text courses on our learning management system
 2. **Live Workshops:** Practice-focused live classes run by our team of technical mentors on weekdays.
 3. **Personalized Classes:** Schedule sessions and meet a technical mentor to work through programming problems.
