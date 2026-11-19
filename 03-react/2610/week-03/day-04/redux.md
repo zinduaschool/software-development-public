@@ -61,7 +61,7 @@ Each of these terms is explained properly in the next section.
 
 ## 2. How Redux works
 
-Redux has one main rule: **components never change the store directly.** They send a message describing what happened, and Redux works out the new state. Every change goes around the same loop. Draw it on the board.
+Redux has one main rule: **components never change the store directly.** They send a message describing what happened, and Redux works out the new state. Every change goes around the same loop:
 
 ```mermaid
 flowchart LR
@@ -112,7 +112,7 @@ Reducers must be pure so Redux always knows exactly what an action will do. That
 
 ### Redux Toolkit
 
-Plain Redux needs a lot of repetitive code. **Redux Toolkit (RTK)** is the official package that cuts it down, and it's how Redux is written today. With RTK you mostly write one thing per feature: a **slice**. If students find a tutorial using `createStore` or a `switch` on `action.type`, it's showing the old way.
+Plain Redux needs a lot of repetitive code. **Redux Toolkit (RTK)** is the official package that cuts it down, and it's how Redux is written today. With RTK you mostly write one thing per feature: a **slice**. If you find a tutorial using `createStore` or a `switch` on `action.type`, it's showing the old way.
 
 ## 3. Setup
 
@@ -122,7 +122,7 @@ Connecting Redux to React takes three files:
 2. **The store:** holds all the slices together.
 3. **The Provider:** makes the store available to every component.
 
-Students need the Redux DevTools browser extension installed (Chrome, Edge or Firefox).
+You also need the Redux DevTools browser extension installed (Chrome, Edge or Firefox).
 
 ### Create the project
 
@@ -244,11 +244,11 @@ What it does:
 
 Open the browser DevTools, go to the **Redux** tab, then **State**. You should see `{ counter: { value: 0 } }`. That's the store, holding the counter's starting value.
 
-To show students what an action looks like, add `console.log(increment())` at the bottom of `counterSlice.js` and check the browser console. It prints `{ type: 'counter/increment', payload: undefined }`. An action really is just a plain object. Remove the line afterwards.
+To see what an action looks like, add `console.log(increment())` at the bottom of `counterSlice.js` and check the browser console. It prints `{ type: 'counter/increment', payload: undefined }`. An action really is just a plain object. Remove the line afterwards.
 
 ## 4. Practical 1: Counter
 
-Build a counter that reads its number from the store and changes it with buttons. Students type along.
+Build a counter that reads its number from the store and changes it with buttons. Code along as you read.
 
 ### The Counter component
 
@@ -313,7 +313,7 @@ Click the buttons a few times, then open the browser DevTools and go to the **Re
 
 Now a real use for Redux: a cart. The header shows how many items are in the cart, and a cart section lists them. They're two separate components using the same data.
 
-Write `addToCart` together. Let students try `removeFromCart` and `clearCart` on their own, then show the solution.
+Try writing `removeFromCart` and `clearCart` yourself before you read the full slice below.
 
 ### Step 1: The cart slice
 
@@ -480,13 +480,13 @@ export default function App() {
 }
 ```
 
-Test it with the class:
+Test it:
 
 - Add the same product twice. The cart shows `x 2` and the count shows 2.
 - Remove it. The count and total update straight away.
 - Clear the cart. The empty message appears.
 
-Points to make once it works:
+Once it works, notice two things:
 
 - `CartIcon` and `Cart` aren't connected by props, yet they always agree, because both read from the store.
 - The count and total aren't stored anywhere. They're calculated from `items`. The rule: **store the raw data, calculate the rest.**
@@ -630,7 +630,7 @@ The API's prices are in US dollars, so change `KES` to `$` in `Cart.jsx` too.
 
 ### What happens when the page loads
 
-Walk students through this order, with DevTools open:
+With DevTools open, this is the order things happen in:
 
 1. `ProductList` appears. The status is `'idle'`.
 2. `useEffect` sees `'idle'` and dispatches `fetchProducts()`.
@@ -642,14 +642,14 @@ If the request fails at step 4, `rejected` is sent instead, the status becomes `
 
 ### Break it on purpose
 
-Change the URL in the thunk to `https://fakestoreapi.com/productz` and reload. Students see the `rejected` action in DevTools and the error message on the page. This shows the error handling works. Then change it back.
+Change the URL in the thunk to `https://fakestoreapi.com/productz` and reload. You'll see the `rejected` action in DevTools and the error message on the page. This shows the error handling works. Then change it back.
 
 > [!TIP]
-> If students notice the request runs twice in the browser's Network tab: that's React's `StrictMode`, which runs effects twice in development to catch bugs. It doesn't happen in the live app.
+> If you notice the request runs twice in the browser's Network tab: that's React's `StrictMode`, which runs effects twice in development to catch bugs. It doesn't happen in the live app.
 
 ## 8. Redux vs useReducer vs useContext
 
-Students will ask this. All three share the same idea of sending an action and getting new state back. The difference is where the state lives and who can reach it.
+All three share the same idea of sending an action and getting new state back. The difference is where the state lives and who can reach it.
 
 **useReducer** works like Redux, but inside one component. You write a reducer and dispatch actions, but the state belongs to that component. Other components only see it if you pass it down as props.
 
@@ -669,7 +669,7 @@ A simple way to put it: **useReducer is Redux for one component, Context is the 
 
 ## 9. When something breaks
 
-These are the errors students are most likely to hit, why they happen, and how to fix them.
+These are the errors you're most likely to hit, why they happen, and how to fix them.
 
 | What happens | Why | Fix |
 |---|---|---|
@@ -681,7 +681,7 @@ These are the errors students are most likely to hit, why they happen, and how t
 
 ### A checklist for any Redux bug
 
-Teach students to work through it in this order:
+Work through it in this order:
 
 1. **Did the action fire?** Look for it in the DevTools action list. If it's missing, the problem is the button or the `dispatch` call.
 2. **Did the state change?** Click the action and check the **Diff** tab. If nothing changed, the problem is in the reducer.
