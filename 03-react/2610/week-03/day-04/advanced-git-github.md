@@ -12,7 +12,7 @@
 
 ## 1. Setup check
 
-Get every machine ready before teaching anything. One broken login stalls the whole room.
+Set up your machine before anything else. The rest of these notes assume this setup.
 
 ### Check the Git version
 
@@ -97,7 +97,7 @@ This commit exists only on `feature/navbar`. `main` hasn't moved.
 git switch main
 ```
 
-Your files change back to how `main` looks. The navbar isn't lost, it's on the other branch. Show this in the browser, it surprises people.
+Your files change back to how `main` looks. The navbar isn't lost, it's on the other branch. Open the page in the browser and check for yourself.
 
 ### Merge with a fast-forward
 
@@ -262,7 +262,7 @@ git reflog
 git reset --hard a91c0d2
 ```
 
-`reflog` records everywhere `HEAD` has been on your machine, including commits no branch points to anymore. Find the one you want and reset back to it. Do this one live: it's what takes the fear away.
+`reflog` records everywhere `HEAD` has been on your machine, including commits no branch points to anymore. Find the one you want and reset back to it. Try this once on a practice repo: knowing you can get commits back takes the fear out of Git.
 
 ### Shelve work with stash
 
@@ -426,7 +426,7 @@ What to check: does it do what the issue asked, does it run, are names clear, an
 ### Merge it
 
 - **Create a merge commit:** keeps every commit, plus a merge commit.
-- **Squash and merge:** turns the whole PR into one commit on `main`. Use this as the class default.
+- **Squash and merge:** turns the whole PR into one commit on `main`. Use this by default on class projects.
 - **Rebase and merge:** replays each commit onto `main`, no merge commit.
 
 ### Clean up locally
@@ -441,7 +441,7 @@ Click **Delete branch** on GitHub, then sync your local `main` and delete your c
 
 ## 7. Team workflow and repo settings
 
-*Example: setting up the Team page repo for a team of four. Demo it on one repo; Maintainers repeat it in the lab.*
+*Example: setting up the Team page repo for a team of four. In the lab, each team's maintainer does this setup.*
 
 ### The loop every teammate follows (GitHub flow)
 
