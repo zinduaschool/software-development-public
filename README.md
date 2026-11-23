@@ -5,7 +5,7 @@ In this program, you will learn the essential skills for Software Development to
 To apply for the Zindua Software Development program, [go to our APPLY page](https://zinduaschool.com/apply).
 
 ## The Program Breakdown
-The core Software Development program covers the following modules, in order. Each module can be taken **part-time (3 weeks)** or **full-time (5 weeks)**:
+The core Software Development program covers the following modules, in order. Each module can be taken **part-time (5 weeks)** or **full-time (3 weeks)**:
 
 | Module/Course | Key Concepts | Curriculum | Part-time | Full-time |
 |---|---|---|---|---|
