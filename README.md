@@ -31,17 +31,17 @@ Bonus courses are taken **part-time** alongside or after the core program.
 | Bonus: Data Structures & Algorithms | Big-O, Sorting, Dynamic Programming, Trees, Graphs | [View Curriculum](https://github.com/zinduaschool/software-development-public/tree/main/08-data-structures-algorithms) |
 
 ## Class Notes
-Your technical mentors share the notes they use in live classes. Each module links to its notes repository; modules marked *Coming soon* do not have a public notes repository yet.
+Your technical mentors share the notes they use in live classes. Each module has its own notes repository, with a folder for each class.
 
 | Module | Class Notes |
 |---|---|
-| 01. HTML & CSS | Coming soon |
-| 02. JavaScript Programming | Coming soon |
-| 03. ReactJS Frontend Development | Coming soon |
+| 01. HTML & CSS | [HTML & CSS Notes](https://github.com/zinduaschool/html-css-notes) |
+| 02. JavaScript Programming | [JavaScript Notes](https://github.com/zinduaschool/javascript-notes) |
+| 03. ReactJS Frontend Development | [React Notes](https://github.com/zinduaschool/react-notes) |
 | 04. Python Programming | [Python Notes](https://github.com/zinduaschool/python-notes) |
-| 05. Django Backend Development | Coming soon |
-| 06. Cloud Computing | Coming soon |
-| Specialization: DevOps Engineering | Coming soon |
+| 05. Django Backend Development | [Django Notes](https://github.com/zinduaschool/django-notes) |
+| 06. Cloud Computing | [Cloud Computing Notes](https://github.com/zinduaschool/cloud-computing-notes) |
+| Specialization: DevOps Engineering | [DevOps Notes](https://github.com/zinduaschool/devops-notes) |
 | Bonus: Data Structures & Algorithms | [DSA Notes](https://github.com/zinduaschool/dsa-notes) |
 
 ### Additional Skills
