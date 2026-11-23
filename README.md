@@ -9,12 +9,12 @@ The core Software Development program covers the following modules, in order. Ea
 
 | Module/Course | Key Concepts | Curriculum | Part-time | Full-time |
 |---|---|---|---|---|
-| 01. HTML & CSS | Semantic HTML, CSS, Responsive Design, Tailwind CSS, Git & GitHub, Figma | [View Curriculum](https://github.com/zinduaschool/software-development-public/tree/main/01-html-css) | 3 weeks | 5 weeks |
-| 02. JavaScript Programming | Variables and Data Types, DOM, Events, Async JavaScript, OOP, Testing | [View Curriculum](https://github.com/zinduaschool/software-development-public/tree/main/02-javascript) | 3 weeks | 5 weeks |
-| 03. ReactJS Frontend Development | Components, State and Props, Hooks, Routing, Redux, Testing, Deployment | [View Curriculum](https://github.com/zinduaschool/software-development-public/tree/main/03-react) | 3 weeks | 5 weeks |
-| 04. Python Programming | Python Basics, Data Types, Web Services, Object Oriented Programming, Databases | [View Curriculum](https://github.com/zinduaschool/software-development-public/tree/main/04-python) | 3 weeks | 5 weeks |
-| 05. Django Backend Development | Django ORM, Authentication, Django Rest Framework, Testing, Deployment | [View Curriculum](https://github.com/zinduaschool/software-development-public/tree/main/05-django) | 3 weeks | 5 weeks |
-| 06. Cloud Computing | Cloud Infrastructure, Docker, Deployment, Cloud Architecture, System Design | [View Curriculum](https://github.com/zinduaschool/software-development-public/tree/main/06-cloud-computing) | 3 weeks | 5 weeks |
+| 01. HTML & CSS | Semantic HTML, CSS, Responsive Design, Tailwind CSS, Git & GitHub, Figma | [View Curriculum](https://github.com/zinduaschool/software-development-public/tree/main/01-html-css) | 5 weeks | 3 weeks |
+| 02. JavaScript Programming | Variables and Data Types, DOM, Events, Async JavaScript, OOP, Testing | [View Curriculum](https://github.com/zinduaschool/software-development-public/tree/main/02-javascript) | 5 weeks | 3 weeks |
+| 03. ReactJS Frontend Development | Components, State and Props, Hooks, Routing, Redux, Testing, Deployment | [View Curriculum](https://github.com/zinduaschool/software-development-public/tree/main/03-react) | 5 weeks | 3 weeks |
+| 04. Python Programming | Python Basics, Data Types, Web Services, Object Oriented Programming, Databases | [View Curriculum](https://github.com/zinduaschool/software-development-public/tree/main/04-python) | 5 weeks | 3 weeks |
+| 05. Django Backend Development | Django ORM, Authentication, Django Rest Framework, Testing, Deployment | [View Curriculum](https://github.com/zinduaschool/software-development-public/tree/main/05-django) | 5 weeks | 3 weeks |
+| 06. Cloud Computing | Cloud Infrastructure, Docker, Deployment, Cloud Architecture, System Design | [View Curriculum](https://github.com/zinduaschool/software-development-public/tree/main/06-cloud-computing) | 5 weeks | 3 weeks |
 
 ### Specializations
 Specializations are taken **part-time** and run for **15 weeks** in total.
